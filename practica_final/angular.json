@@ -31,9 +31,13 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/@coreui/coreui/dist/css/coreui.min.css",
+              "node_modules/@coreui/icons/css/coreui-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@coreui/coreui/dist/js/coreui.min.js"
+            ]
           },
           "configurations": {
             "production": {
